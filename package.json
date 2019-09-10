@@ -10,8 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.6.13"
+    "mongoose": "^5.6.13",
+    "pug": "^2.0.4"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuong123s/VShop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuong123s/VShop/issues"
+  },
+  "homepage": "https://github.com/vuong123s/VShop#readme",
   "description": ""
 }
