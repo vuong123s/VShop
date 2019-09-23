@@ -1,8 +1,10 @@
 head
   meta(charset='utf-8')
   meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
-  link(href='https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap', rel='stylesheet') 
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous') 
+  link(href='https://fonts.googleapis.com/css?family=Turret+Road&display=swap', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Lato&display=swap', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans&display=swap', rel='stylesheet')  
   link(href='/css/style.css', rel='stylesheet')
   title Hello, world!
 script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
@@ -10,7 +12,7 @@ script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.m
 script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light
-  a.navbar-brand.style-0(href='#') VShop
+  a.style-0(href='#') VShop
   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
   #navbarSupportedContent.collapse.navbar-collapse
@@ -23,42 +25,46 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light
         a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           | Thiết Bị Điện Tử
         .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
+          a.dropdown-item(href='#') Điện Thoại Di Động
+          a.dropdown-item(href='#') Máy Tính Để Bàn
+          a.dropdown-item(href='#') Laptop
+          a.dropdown-item(href='#') TV
+          a.dropdown-item(href='#') Đồng Hồ Thông Minh
+          a.dropdown-item(href='#') Máy Chơi Game
       li.nav-item.dropdown
         a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           | Phụ Kiện Điện Tử
         .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
+          a.dropdown-item(href='#') Phụ Kiện Điện Thoại
+          a.dropdown-item(href='#') Phụ Kiện Máy Tính
+          a.dropdown-item(href='#') Phụ Kiện Laptop
+          a.dropdown-item(href='#') Phụ Kiện TV
+          a.dropdown-item(href='#') Phụ Kiện Máy Chơi Game
       li.nav-item.dropdown
         a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           | TV & Đồ Gia Dụng
         .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
+          a.dropdown-item(href='#') TV Kĩ Thuật Số
+          a.dropdown-item(href='#') Đồ Gia Dụng Lớn
+          a.dropdown-item(href='#') Đồ Gia Dụng Nhỏ
       li.nav-item.dropdown
         a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           | Thời Trang
         .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
+          a.dropdown-item(href='#') Thời Trang Nam
+          a.dropdown-item(href='#') Thời Trang Nữ
+          a.dropdown-item(href='#') Áo Khoác
+          a.dropdown-item(href='#') Giày
+          a.dropdown-item(href='#') Thời Trang Du Lịch
+          a.dropdown-item(href='#') Thời Trang Thể Thao
       li.nav-item.dropdown
         a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           |  Ôtô & Xe Máy
         .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here                
+          a.dropdown-item(href='#') Xe Máy     
+          a.dropdown-item(href='#') Nội Thất Ôtô 
+          a.dropdown-item(href='#') Phụ Kiện Ôtô
+          a.dropdown-item(href='#') Thiết Bị Định Vị Ôtô   
     form.form-inline.my-2.my-lg-0
       input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
       button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search

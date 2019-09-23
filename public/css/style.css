@@ -1,5 +1,12 @@
 body{
-	color: rgb(100,0,255);
-	font-size: 14px;
-	
+	font-family: 'Open Sans', sans-serif;
+}
+.style-0{
+	font-size: 30px;
+	font-family: 'Turret Road', cursive;
+	color: rgb(255, 50, 0);
+}
+.style-0:hover{
+	color: rgb(255, 50, 0);
+	text-decoration: none;
 }
